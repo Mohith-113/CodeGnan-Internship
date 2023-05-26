@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.heading{
+    color: coral;
+    background-color: aquamarine;
+    width: 450px;
+    margin: 0 30%;
+    border-radius: 10px;
+}
+.subheading{
+    color: rgb(106, 255, 80);
+    background-color: rgb(110, 84, 253);
+    width: 450px;
+    height: 40px;
+    margin: 0 30%;
+    margin-top: 150px;
+    border-radius: 30px;
+    font-size: xx-large;
+   
+}
+.about{
+    width: 600px;
+    height: 60px;
+    margin-left: 30px;
+    border: 2px solid gray;
+    padding: 5px;
+}
+.subheading:hover{
+    color: rgb(31, 61, 159);
+    background-color: rgb(249, 123, 114);
+   
+}

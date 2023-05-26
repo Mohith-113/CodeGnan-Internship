@@ -1,0 +1,36 @@
+
+body{
+    background-color: lightblue;
+    background-image: url(https://media.istockphoto.com/id/1334048483/photo/heart-beat-lines-abstract-digitally-generated-background.webp?b=1&s=170667a&w=0&k=20&c=gaFtp2QvZpOIAWhFArdxmiGyrtov9aUAW1aWsohI9iI=);
+    background-size: cover;
+}
+h1{
+    color: rgba(230, 47, 47, 0.781);
+    font-style: oblique;
+    font-weight: 600;
+    text-shadow: 5px solid black;
+}
+h3{
+    color: aquamarine;
+    font-size: 40px;
+    background-color:chocolate;
+    width: 450px;
+    border-bottom: 5px dashed;
+}
+p{
+    color: azure;
+}
+button{
+    color: aliceblue;
+    background-color: blue;
+    height: 30px;
+    width: 90px;
+    margin-left: 350px;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0000aa;
+    
+}
