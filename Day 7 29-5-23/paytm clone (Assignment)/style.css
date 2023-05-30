@@ -3,6 +3,7 @@ body{
     margin: 0px;
     padding: 0;
     font-family: 'inter',sans-serif;
+    background-color: rgba(232, 236, 244, 0.474);
 }
 .navbar a{
     text-decoration: none;
@@ -20,7 +21,7 @@ body{
     margin: 0px 50px 0 50px;
     padding-bottom: 45px;
 }
-nav{
+header{
     box-shadow: 0 20px 20px rgba(8, 22, 47, 0.07);
     position: sticky;
     top: 0;
@@ -63,7 +64,7 @@ nav{
 }
 .main{
     padding-left: 120px;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 .main h1{
     font-size: 54px;
@@ -79,7 +80,6 @@ nav{
 .play-btn{
     color: white;
     background-color: black;
-    font-size: 15px;
     height: 44px;
     padding: 0 24px;
     font-weight: 500;
@@ -89,6 +89,9 @@ nav{
     align-items: center;
     justify-content: center;
     line-height: 1;
+}
+.play-btn .btn{
+    font-size: 15px;
 }
 .play-btn:hover{
     color: black;
@@ -143,4 +146,60 @@ nav{
 }
 .ele .ele1:hover{
     background-color: rgba(0, 0, 0, 0.1);
+}
+.main h2{
+    font-size: 48px;
+}
+.img{
+    width: 175px;
+    display: flex;    
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 700;
+}
+.main h3{
+    font-size: 35px;
+}
+.main p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.left1{
+    width: 30%;
+    padding: 50px 120px;
+    float: left;
+}
+.box{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    width: 90%;
+    height: 650px;
+}
+.box img{
+    padding-top: 80px;
+}
+.learn-btn{
+    color: white;
+    background-color: #002970;
+    height: 44px;
+    padding: 0 24px;
+    font-weight: 500;
+    width: 105px;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.box2{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #fff;
+    width: 45%;
+    height: 650px;
+    overflow: hidden;
+}
+.content2{
+    padding: 40px 70px 0 90px;
 }
