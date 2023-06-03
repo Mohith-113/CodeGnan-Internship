@@ -65,6 +65,8 @@ header{
 .main{
     padding-left: 120px;
     margin-top: 100px;
+    clear: both;
+    background-color: #fff;
 }
 .main h1{
     font-size: 54px;
@@ -202,10 +204,18 @@ header{
     width: 45%;
     height: 650px;
     overflow: hidden;
+    margin-bottom: 150px;
 }
 .content2{
     padding: 40px 70px 0 90px;
 }
-.sec4{
+.main2{
     clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.main3{
+    background-color: rgba(232, 236, 244, 0.474);
 }
