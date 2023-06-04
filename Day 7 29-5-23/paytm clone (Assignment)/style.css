@@ -68,7 +68,7 @@ header{
     clear: both;
     background-color: #fff;
 }
-.main h1{
+.main h1, .main2 h1,.main3 h1{
     font-size: 54px;
     font-weight: 900;
 }
@@ -162,7 +162,7 @@ header{
 .main h3{
     font-size: 35px;
 }
-.main p{
+.main p,.main2 p,.main3 p{
     font-size: 16px;
     font-weight: 600;
 }
@@ -214,8 +214,37 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 90px;
 }
 .main3{
-    background-color: rgba(232, 236, 244, 0.474);
+    padding-left: 120px;
+    clear: both;
+    background-color: rgba(232, 236, 244, 0.354);
+}
+.flow{
+    background-color: #00baf2ad ;
+    padding: 5px 6px 7px 6px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+.flow:hover{
+    background-color: #00baf2;
+}
+.flow img{
+    border-radius: 10px;
+}
+.flow h4{
+    color: #fff;
+    font-size: large;
+}
+.control{
+    width: 1000px;
+    overflow-x: scroll;
+}
+.side a{
+    text-decoration: none;
+    color: #00baf2;
+    font-weight: bold;
+}
+.side a:hover{
+    color: #002970;
 }
